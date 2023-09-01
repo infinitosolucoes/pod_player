@@ -1,5 +1,3 @@
-part of 'pod_getx_video_controller.dart';
-
 class _PodGesturesController extends _PodVideoQualityController {
   //double tap
   Timer? leftDoubleTapTimer;
@@ -14,38 +12,51 @@ class _PodGesturesController extends _PodVideoQualityController {
   ///*handle double tap
 
   void onLeftDoubleTap({int? seconds}) {
-    isShowOverlay(true);
+    isShowOverlay(false);
     leftDoubleTapTimer?.cancel();
     rightDoubleTapTimer?.cancel();
 
     isRightDbTapIconVisible = false;
     isLeftDbTapIconVisible = true;
+    /*
     updateLeftTapDuration(
       leftDoubleTapduration += seconds ?? doubleTapForwardSeconds,
     );
+
+
     seekBackward(Duration(seconds: seconds ?? doubleTapForwardSeconds));
     update(['double-tap-left']);
+
+     */
+    /*
     leftDoubleTapTimer = Timer(const Duration(milliseconds: 500), () {
       isLeftDbTapIconVisible = false;
       updateLeftTapDuration(0);
       leftDoubleTapTimer?.cancel();
+      print('double-tap-left');
       if (isvideoPlaying) {
         playVideo(true);
       }
       isShowOverlay(false);
     });
+
+     */
   }
 
   void onRightDoubleTap({int? seconds}) {
-    isShowOverlay(true);
+    isShowOverlay(false);
     rightDoubleTapTimer?.cancel();
     leftDoubleTapTimer?.cancel();
 
     isLeftDbTapIconVisible = false;
     isRightDbTapIconVisible = true;
+    /*
     updateRightTapDuration(
       rightDubleTapduration += seconds ?? doubleTapForwardSeconds,
     );
+
+    */
+    /*
     seekForward(Duration(seconds: seconds ?? doubleTapForwardSeconds));
     update(['double-tap-right']);
     rightDoubleTapTimer = Timer(const Duration(milliseconds: 500), () {
@@ -57,6 +68,8 @@ class _PodGesturesController extends _PodVideoQualityController {
       }
       isShowOverlay(false);
     });
+
+     */
   }
 
   void onOverlayHover() {
@@ -65,7 +78,7 @@ class _PodGesturesController extends _PodVideoQualityController {
       isShowOverlay(true);
       hoverOverlayTimer = Timer(
         const Duration(seconds: 3),
-        () => isShowOverlay(false),
+            () => isShowOverlay(false),
       );
     }
   }
