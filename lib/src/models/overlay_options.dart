@@ -1,4 +1,4 @@
-import '../../pod_player.dart';
+import '../../mobs_player.dart';
 
 class OverLayOptions {
   final PodVideoState podVideoState;

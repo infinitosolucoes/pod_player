@@ -12,7 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  pod_player:
+  mobs_player:
     path: ../
 
   cupertino_icons: ^1.0.5

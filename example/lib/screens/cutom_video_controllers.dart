@@ -1,6 +1,6 @@
 import 'dart:developer';
 
-import 'package:pod_player/pod_player.dart';
+import 'package:mobs_player/mobs_player.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 

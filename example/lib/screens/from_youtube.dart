@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pod_player/pod_player.dart';
+import 'package:mobs_player/mobs_player.dart';
 
 class PlayVideoFromYoutube extends StatefulWidget {
   const PlayVideoFromYoutube({Key? key}) : super(key: key);

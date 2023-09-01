@@ -5,7 +5,7 @@
 
 ## 0.2.0
   - upgraded dependencies 
-  - migrate from `wakelock` to `wakelock_plus` PR [#129](https://github.com/newtaDev/pod_player/pull/129)
+  - migrate from `wakelock` to `wakelock_plus` PR [#129](https://github.com/newtaDev/mobs_player/pull/129)
   - fixed all lint rules
   - migrated `VideoPlayerController.network` to `VideoPlayerController.networkUrl`
   - Breaking:
@@ -24,7 +24,7 @@
   - fixed #82
 ## 0.1.1
   - Feature
-    - support vimeo private video [ref](https://github.com/newtaDev/pod_player#how-to-play-video-from-vimeo-private-videos)
+    - support vimeo private video [ref](https://github.com/newtaDev/mobs_player#how-to-play-video-from-vimeo-private-videos)
     - double tap ripple effect added
   - upgraded dependencies
   - merged PR #66 #77 #78
@@ -46,12 +46,12 @@
 
   - Support for youtube live videos By [`(@vodino)`](https://github.com/vodino)
   - Added: `videoQualityPriority` to `PodPlayerConfig` By [`(@emersonsiega)`](https://github.com/emersonsiega)
-  - Added: callback `onToggleFullScreen` when changes in fullscreen mode [#48](https://github.com/newtaDev/pod_player/issues/48)
+  - Added: callback `onToggleFullScreen` when changes in fullscreen mode [#48](https://github.com/newtaDev/mobs_player/issues/48)
   - Added: `hideOverlay` and `showOverlay` functions to controller
 
 - Bug Fixes
   - Merged PR #54 By [`(@emersonsiega)`](https://github.com/emersonsiega)
-    - Fix unhandled exception on initialization [#49](https://github.com/newtaDev/pod_player/issues/49)
+    - Fix unhandled exception on initialization [#49](https://github.com/newtaDev/mobs_player/issues/49)
     - Add video quality priority list
     - Changes in `onToggleFullScreen`
 

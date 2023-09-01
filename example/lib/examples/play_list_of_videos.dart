@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pod_player/pod_player.dart';
+import 'package:mobs_player/mobs_player.dart';
 
 void main(List<String> args) {
   PodVideoPlayer.enableLogs = true;

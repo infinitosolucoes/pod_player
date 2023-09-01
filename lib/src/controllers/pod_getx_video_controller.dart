@@ -8,7 +8,7 @@ import 'package:get/get.dart';
 import 'package:universal_html/html.dart' as uni_html;
 import 'package:wakelock_plus/wakelock_plus.dart';
 
-import '../../pod_player.dart';
+import '../../mobs_player.dart';
 import '../utils/logger.dart';
 import '../utils/video_apis.dart';
 
@@ -75,7 +75,7 @@ class PodGetXVideoController extends _PodGesturesController {
       podVideoStateChanger(PodVideoState.error);
       update(['errorState']);
       update(['update-all']);
-      podLog('ERROR ON POD_PLAYER:  $e');
+      podLog('ERROR ON mobs_player:  $e');
       rethrow;
     }
   }

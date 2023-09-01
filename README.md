@@ -1,12 +1,12 @@
 <h1 align="center">
-  <a href="https://github.com/newtaDev"><img src="https://user-images.githubusercontent.com/85326522/159757765-db86f850-fea8-4dc2-bd86-0a27648b24e5.png" alt="pod_player"></a>
+  <a href="https://github.com/newtaDev"><img src="https://user-images.githubusercontent.com/85326522/159757765-db86f850-fea8-4dc2-bd86-0a27648b24e5.png" alt="mobs_player"></a>
 </h1>
 
 <p align="center">
-  <a href="https://pub.dev/packages/pod_player/score"><img src="https://img.shields.io/badge/Likes-200+-yellowgreen" alt="pub likes"></a>
-    <a href="https://pub.dev/packages/pod_player"><img src="https://img.shields.io/pub/v/pod_player?style=flat" alt="pub version"></a>
-  <a href="https://pub.dev/packages/pod_player/score"><img src="https://img.shields.io/badge/score-140-critical" alt="score"></a>
-  <a href="https://pub.dev/packages/pod_player/score"><img src="https://img.shields.io/badge/popularity-97﹪-critical" alt="pub points"></a>
+  <a href="https://pub.dev/packages/mobs_player/score"><img src="https://img.shields.io/badge/Likes-200+-yellowgreen" alt="pub likes"></a>
+    <a href="https://pub.dev/packages/mobs_player"><img src="https://img.shields.io/pub/v/mobs_player?style=flat" alt="pub version"></a>
+  <a href="https://pub.dev/packages/mobs_player/score"><img src="https://img.shields.io/badge/score-140-critical" alt="score"></a>
+  <a href="https://pub.dev/packages/mobs_player/score"><img src="https://img.shields.io/badge/popularity-97﹪-critical" alt="pub points"></a>
 
 </p>
 Video player for flutter web & mobile devices, pod player supports playing video from `Youtube` and `Vimeo`
@@ -65,7 +65,7 @@ This plugin built upon flutter's official [`video_player`](https://pub.dartlang.
 ---
 
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/85326522/160871693-74b468de-839d-4ae3-9ef0-581066130072.gif" alt="pod_player">
+  <img src="https://user-images.githubusercontent.com/85326522/160871693-74b468de-839d-4ae3-9ef0-581066130072.gif" alt="mobs_player">
 </h1>
 
 - Video player on web
@@ -73,7 +73,7 @@ This plugin built upon flutter's official [`video_player`](https://pub.dartlang.
 ---
 
 <h1 align="center">
-  <a><img src="https://user-images.githubusercontent.com/85326522/160885274-41be06af-ae6d-41f3-8cff-21767fde8dad.gif" alt="pod_player"></a>
+  <a><img src="https://user-images.githubusercontent.com/85326522/160885274-41be06af-ae6d-41f3-8cff-21767fde8dad.gif" alt="mobs_player"></a>
 </h1>
 
 - Vimeo player and custom video player
@@ -145,7 +145,7 @@ In your `pubspec.yaml` file within your Flutter Project:
 
 ```yaml
 dependencies:
-  pod_player: <latest_version>
+  mobs_player: <latest_version>
 ```
 
 ### Android
@@ -213,7 +213,7 @@ fluttercors --disable
 ---
 
 ```dart
-import 'package:pod_player/pod_player.dart';
+import 'package:mobs_player/mobs_player.dart';
 import 'package:flutter/material.dart';
 
 class PlayVideoFromNetwork extends StatefulWidget {
@@ -302,7 +302,7 @@ Widget build(BuildContext context) {
 ---
 
 ```dart
-import 'package:pod_player/pod_player.dart';
+import 'package:mobs_player/mobs_player.dart';
 import 'package:flutter/material.dart';
 
 class PlayVideoFromYoutube extends StatefulWidget {
@@ -344,7 +344,7 @@ class _PlayVideoFromYoutubeState extends State<PlayVideoFromYoutube> {
 ---
 
 ```dart
-import 'package:pod_player/pod_player.dart';
+import 'package:mobs_player/mobs_player.dart';
 import 'package:flutter/material.dart';
 
 class PlayVideoFromVimeo extends StatefulWidget {
@@ -386,7 +386,7 @@ class _PlayVideoFromVimeoState extends State<PlayVideoFromVimeo> {
 ---
 
 ```dart
-import 'package:pod_player/pod_player.dart';
+import 'package:mobs_player/mobs_player.dart';
 import 'package:flutter/material.dart';
 
 class PlayVideoFromVimeo extends StatefulWidget {
@@ -428,7 +428,7 @@ class _PlayVideoFromVimeoState extends State<PlayVideoFromVimeo> {
 ---
 
 ```dart
-import 'package:pod_player/pod_player.dart';
+import 'package:mobs_player/mobs_player.dart';
 import 'package:flutter/material.dart';
 
 class PlayVideoFromVimeoPrivateVideo extends StatefulWidget {

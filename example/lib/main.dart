@@ -4,7 +4,7 @@ import 'package:example/screens/from_network_urls.dart';
 import 'package:example/screens/from_vimeo_private_id.dart';
 import 'package:example/screens/from_youtube.dart';
 import 'package:flutter/material.dart';
-import 'package:pod_player/pod_player.dart';
+import 'package:mobs_player/mobs_player.dart';
 
 import 'screens/cutom_video_controllers.dart';
 import 'screens/from_vimeo_id.dart';
