@@ -240,10 +240,8 @@ class _MobileOverlayBottomControlles extends StatelessWidget {
                     podCtr.toggleVideoOverlay();
                   }
                 },
-                child: Icon(
-                  podCtr.isFullScreen
-                      ? Icons.fullscreen_exit
-                      : Icons.fullscreen,
+                child: Container(
+
                 ),
               ),
             ],
@@ -252,19 +250,7 @@ class _MobileOverlayBottomControlles extends StatelessWidget {
             tag: tag,
             id: 'overlay',
             builder: (podCtr) {
-              if (podCtr.isFullScreen) {
-                return Padding(
-                  padding: const EdgeInsets.fromLTRB(12, 0, 12, 20),
-                  child: Visibility(
-                    visible: podCtr.isOverlayVisible,
-                    child: PodProgressBar(
-                      tag: tag,
-                      alignment: Alignment.topCenter,
-                      podProgressBarConfig: podCtr.podProgressBarConfig,
-                    ),
-                  ),
-                );
-              }
+
               return PodProgressBar(
                 tag: tag,
                 alignment: Alignment.bottomCenter,
