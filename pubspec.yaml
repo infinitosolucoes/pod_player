@@ -1,6 +1,6 @@
 name: mobs_player
 description: Vimeo and youtube player for flutter, Pod player provides customizable video player controls that support android, ios and web.
-version: 0.2.3
+version: 0.2.4
 homepage: https://github.com/infinitosolucoes/mobs_player
 
 environment:
